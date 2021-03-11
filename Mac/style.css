@@ -1,10 +1,11 @@
-@font-face {
+/* @font-face {
     font-family: "sahel";
     src: url("../fonts/ios.ttf") format("truetype");
-}
-
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
-    font-family: sahel;
+    /*font-family: sahel;*/
+    font-family:'Roboto', sans-serif;
 }
 
 #navbar #navbar_1 a:link {
