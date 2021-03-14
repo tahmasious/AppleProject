@@ -1,0 +1,1858 @@
+@font-face {
+    font-family: "sahel";
+    src: url("../fonts/ios.ttf") format("truetype");
+    /* font-family: "sahel";
+    src: url("../fonts/SFUIText-Regular.woff") format("woff"); */
+}
+
+* {
+    font-family: sahel;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/*--------------------------------------                   Top navbar                 ----------------------------------------*/
+
+#topnavbar li {
+    list-style: none;
+    display: inline-table;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+#topnavbar ul {
+    padding-left: 0;
+}
+
+#topnavbar a {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    color: #1D1D1F;
+    text-decoration: none;
+}
+
+#topnavbar a:hover {
+    text-decoration: none;
+    color: #0071e3;
+}
+
+#innn p {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 600;
+    letter-spacing: -.01em;
+}
+
+#topnavbar li figure {
+    height: 54px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#topnavbar span {
+    display: table;
+    margin: auto;
+}
+
+#topnavbar .coont {
+    padding-top: 10px;
+    display: table;
+    margin: auto;
+    padding-bottom: 12px;
+}
+
+#topnavbar .iPadProLi figure {
+    background-size: 41px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipadpro_light__b2axwqwl0seq_large.svg');
+    width: 41px;
+}
+
+#topnavbar .iPadAirLi figure {
+    background-size: 30px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipadair_light__bxa7031ri76u_large.svg');
+    width: 30px;
+}
+
+#topnavbar .iPadLi figure {
+    background-size: 30px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipad_light__jyjgim3zp16q_large.svg');
+    width: 30px;
+}
+
+#topnavbar .iPadminiLi figure {
+    background-size: 22px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipadmini_light__gkq0aptdyw2m_large.svg');
+    width: 22px;
+}
+
+#topnavbar .CompareLi figure {
+    background-size: 48px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipad_comp_light__bvnbwijvjwdy_large.svg');
+    width: 48px;
+}
+
+#topnavbar .ApplePencilLi figure {
+    background-size: 3px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/apple_pencil_light__cdqtdanbc16u_large.svg');
+    width: 3px;
+}
+
+#topnavbar .KeyboardsLi figure {
+    background-size: 65px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/keyboard_light__gejz7uk8j4ya_large.svg');
+    width: 65px;
+}
+
+#topnavbar .AirPodsLi figure {
+    background-size: 27px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/airpods_light__bnk7vnjy3lyq_large.svg');
+    width: 27px;
+}
+
+#topnavbar .AccessoriesLi figure {
+    background-size: 31px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipad_acc_light__dyvsp83elz6u_large.svg');
+    width: 31px;
+}
+
+#topnavbar .iPadOSLi figure {
+    background-size: 33px 54px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipados_light__gdfna9j08tua_large.svg');
+    width: 33px;
+}
+
+#innn .inn {
+    display: table;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#innn a:hover {
+    color: #0071e3;
+}
+
+
+/*--------------------------------------    ipad air say hello to ipad air   ----------------------------------------*/
+
+#iPadAirSayHello .iPadAirSayHello-class {
+    background-color: #ffffff00;
+    /* margin-right: 30px; */
+    padding: 55px;
+    margin-bottom: 30px;
+    padding-top: 0;
+}
+
+#iPadAirSayHello .iPadAirSayHelloText-class {
+    background-color: #FFFFFF;
+    padding: 55px;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+#iPadAirSayHello .iPadAirSayHelloText-class figure {
+    /* width: 519px; */
+    height: 619px;
+    background-size: 519px 619px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipad_air__bew5mrs0rwqa_large.jpg');
+    margin-right: 0;
+}
+
+#iPadAirSayHello .iPadAirSayHello-des h2 {
+    color: #1D1D1F;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    margin-bottom: -17px;
+}
+
+#iPadAirSayHello .iPadAirSayHello-des p {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    margin-bottom: -5px;
+}
+
+#iPadAirSayHello .iPadAirSayHello-des span {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: -.022em;
+}
+
+#iPadAirSayHello .iPadAirSayHello-des button {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    border-style: none;
+    background: #0071e3;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#iPadAirSayHello .iPadAirSayHello-des {
+    padding-top: 230px;
+    padding-left: 120px;
+}
+
+#iPadAirSayHello .iPadAirSayHello-try {
+    margin-right: 30px;
+}
+
+#iPadAirSayHello .iPadAirSayHello-class a {
+    color: #0071e3;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    text-align: left;
+}
+
+#iPadAirSayHello .iPadAirSayHello-class a:hover {
+    color: #0071e3;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #iPadAirSayHello .iPadAirSayHelloText-class figure {
+        width: 287px;
+        height: 343px;
+        background-size: 287px 343px;
+    }
+    #iPadAirSayHello .iPadAirSayHello-des {
+        padding: 0;
+        margin: auto;
+        text-align: center;
+    }
+    #iPadAirSayHello .iPadAirSayHelloText-class {
+        padding-left: 55px;
+        margin-bottom: 0;
+    }
+}
+
+#iPadTitle {
+    padding-left: 20 !important;
+    padding-top: 100px !important;
+}
+
+#iPadFigureInIpadPart {
+    width: 895px !important;
+    height: 473px !important;
+    background-size: 895px 473px !important;
+    background-image: url('img/ipad_102__deqy1t6yaga6_large.jpg') !important;
+}
+
+#iPadProFigureInIpadPart {
+    width: 1403px !important;
+    height: 582px !important;
+    background-size: 1403px 582px !important;
+    background-image: url('img/ipad_pro_hero__dp32paa1qmi6_large.jpg') !important;
+    position: relative;
+    right: 18%;
+}
+
+#iPadMiniFigureInIpadPart {
+    width: 660px !important;
+    height: 548px !important;
+    background-size: 660px 548px !important;
+    background-image: url('img/ipad_mini__b1lzcxdlwt6u_large.jpg') !important;
+    position: relative;
+    left: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    #iPadFigureInIpadPart {
+        width: 415px !important;
+        height: 220px !important;
+        background-size: 415px 220px !important;
+        background-position-x: -30px;
+    }
+    #iPadProFigureInIpadPart {
+        width: auto !important;
+        height: 260px !important;
+        background-size: 541px 260px !important;
+        position: static;
+    }
+}
+
+
+/*--------------------------------------                   iPad mini edits                 ----------------------------------------*/
+
+.iPadMiniEdits {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    overflow: visible;
+}
+
+.iPadMiniEdits figure {
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .iPadMiniEdits {
+        overflow: hidden !important;
+    }
+    #iPadMiniFigureInIpadPart {
+        width: 479px !important;
+        height: 374px !important;
+        background-size: 479px 374px !important;
+        background-image: url('img/ipad_mini__b1lzcxdlwt6u_small.jpg') !important;
+    }
+}
+
+
+/* -------------------------------------------------- Find the right iPad for you. ------------------------------------------------- */
+
+#gridsystem .compare-grid {
+    display: grid;
+    margin-top: 52px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-areas: 'ipadpropic ipadairpic ipadpic ipadminipic' 'ipadproscale ipadairscale ipadscale ipadminiscale' 'ipadprochip ipadairchip ipadchip ipadminichip' 'ipadproCompatible ipadairCompatible ipadCompatible ipadminiCompatible' 'ipadpropen ipadairpen ipadpen ipadminipen' 'ipadprobuy ipadairbuy ipadbuy ipadminibuy';
+    grid-row-gap: 23px;
+    grid-column-gap: 34px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 850px) {
+    #gridsystem .compare-grid {
+        grid-template-areas: 'ipadpropic ipadairpic' 'ipadproscale ipadairscale' 'ipadprochip ipadairchip' 'ipadproCompatible ipadairCompatible' 'ipadpropen ipadairpen' 'ipadprobuy ipadairbuy' ' ipadpic ipadminipic' 'ipadscale ipadminiscale' 'ipadchip ipadminichip' 'ipadCompatible ipadminiCompatible' 'ipadpen ipadminipen' 'ipadbuy ipadminibuy';
+    }
+}
+
+#gridsystem h3 {
+    text-align: center;
+}
+
+#gridsystem h4 {
+    text-align: center;
+}
+
+#gridsystem p {
+    text-align: center;
+    color: #1D1D1F;
+}
+
+#gridsystem .ipadpropic {
+    grid-area: ipadpropic;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1D1D1F;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gridsystem .ipadpropic figure {
+    margin: auto;
+    width: 189px;
+    height: 214px;
+    background-size: 189px 214px;
+    background-image: url('img/compare_ipad_pro__d0h57340ahaq_large.png');
+}
+
+#gridsystem .ipadpropic .ipadprocolor {
+    width: 45px;
+    height: 18px;
+    background-size: 45px 18px;
+    background-repeat: no-repeat;
+    background-image: url('img/compare_ipad_pro_swatches__d1feqzz3rtg2_large.jpg');
+}
+
+#gridsystem .ipadproscale {
+    grid-area: ipadproscale;
+}
+
+#gridsystem .ipadprochip {
+    grid-area: ipadprochip;
+}
+
+#gridsystem .ipadprochip figure {
+    width: 46px;
+    height: 46px;
+    background-size: 46px 46px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url('img/compare_a12z_chip__kiucb5v8rs66_large.png');
+}
+
+#gridsystem .ipadproCompatible {
+    grid-area: ipadproCompatible;
+}
+
+#gridsystem .ipadproCompatible figure,
+#gridsystem .ipadairCompatible figure {
+    width: 68px;
+    height: 49px;
+    background-size: 68px 49px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url('img/compare_magic_keyboard__ejauphe9o92e_large.png');
+}
+
+#gridsystem .ipadpropen {
+    grid-area: ipadpropen;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1D1D1F;
+}
+
+#gridsystem .ipadprobuy {
+    grid-area: ipadprobuy;
+}
+
+#gridsystem .ipadairpic {
+    grid-area: ipadairpic;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1D1D1F;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gridsystem .ipadairpic figure {
+    width: 136px;
+    height: 188px;
+    background-size: 136px 188px;
+    background-repeat: no-repeat;
+    background-image: url('img/compare_ipad_air__dlzfpz8gev42_large.png');
+    margin-top: 27px;
+}
+
+#gridsystem .ipadairpic .ipadaircolor {
+    width: 123px;
+    height: 18px;
+    background-size: 123px 18px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url('img/compare_ipad_air_swatches__zgoe8pqn9xue_large.jpg');
+}
+
+#gridsystem .ipadairscale {
+    grid-area: ipadairscale;
+}
+
+#gridsystem .ipadairchip {
+    grid-area: ipadairchip;
+}
+
+#gridsystem .ipadairchip figure {
+    width: 46px;
+    height: 46px;
+    background-size: 46px 46px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url('img/compare_a14_chip__e9f0k4fbh2y6_large.png');
+}
+
+#gridsystem .ipadairCompatible {
+    grid-area: ipadairCompatible;
+}
+
+#gridsystem .ipadairpen {
+    grid-area: ipadairpen;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1D1D1F;
+}
+
+#gridsystem .ipadairbuy {
+    grid-area: ipadairbuy;
+}
+
+#gridsystem .ipadpic {
+    grid-area: ipadpic;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1D1D1F;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gridsystem .ipadpic figure {
+    width: 133px;
+    height: 191px;
+    background-size: 133px 191px;
+    background-repeat: no-repeat;
+    background-image: url('img/compare_ipad_10_2__d87l3rz5hzue_large.png');
+    margin-top: 24px;
+}
+
+#gridsystem .ipadpic .ipadcolor {
+    width: 71px;
+    height: 18px;
+    background-size: 71px 18px;
+    background-repeat: no-repeat;
+    background-image: url('img/compare_ipad_10_2_swatches__fripgo3dhgq6_large.jpg');
+    margin: auto;
+}
+
+#gridsystem .ipadscale {
+    grid-area: ipadscale;
+}
+
+#gridsystem .ipadchip {
+    grid-area: ipadchip;
+}
+
+#gridsystem .ipadchip figure,
+#gridsystem .ipadminichip figure {
+    width: 46px;
+    height: 46px;
+    background-size: 46px 46px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url('img/compare_a12_chip__ewldzefq3wae_large.png');
+}
+
+#gridsystem .ipadCompatible {
+    grid-area: ipadCompatible;
+}
+
+#gridsystem .ipadCompatible figure {
+    width: 68px;
+    height: 49px;
+    background-size: 68px 49px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url('img/compare_smart_keyboard__zu5byh61f1eu_large.png');
+}
+
+#gridsystem .ipadpen {
+    grid-area: ipadpen;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1D1D1F;
+}
+
+#gridsystem .ipadbuy {
+    grid-area: ipadbuy;
+}
+
+
+/* ---*/
+
+#gridsystem .ipadminipic {
+    grid-area: ipadminipic;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1D1D1F;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#gridsystem .ipadminipic figure {
+    width: 104px;
+    height: 155px;
+    background-size: 104px 155px;
+    background-repeat: no-repeat;
+    background-image: url('img/compare_ipad_mini__k6cml5algu6i_large.png');
+    margin-top: 59px;
+}
+
+#gridsystem .ipadminipic .ipadminicolor {
+    width: 71px;
+    height: 18px;
+    background-size: 71px 18px;
+    background-repeat: no-repeat;
+    background-image: url('img/compare_ipad_mini_swatches__b32w9z504w9y_large.jpg');
+    margin: auto;
+}
+
+#gridsystem .ipadminiscale {
+    grid-area: ipadminiscale;
+}
+
+#gridsystem .ipadminichip {
+    grid-area: ipadminichip;
+}
+
+#gridsystem .ipadminiCompatible {
+    grid-area: ipadminiCompatible;
+}
+
+#gridsystem .ipadminiCompatible figure {
+    width: 68px;
+    height: 49px;
+    background-size: 68px 49px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url('img/compare_bluetooth_keyboard__ccnt5vblj876_large.png');
+}
+
+#gridsystem .ipadminipen {
+    grid-area: ipadminipen;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #1D1D1F;
+}
+
+#gridsystem .ipadminibuy {
+    grid-area: ipadminibuy;
+}
+
+#gridsystem .ipadspen {
+    width: 62px;
+    height: 6px;
+    background-size: 62px 6px;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-image: url('img/compare_pencil__e667gupwv9iu_large.png');
+}
+
+#gridsystem .comparebutt {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 17px;
+    line-height: 1.17648;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    min-width: 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 18px;
+    border-style: none;
+    background: #0071e3;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#gridsystem .comparelinks {
+    text-align: center;
+}
+
+#gridsystem .chip figure {
+    margin-bottom: 10px;
+}
+
+#gridsystem .Compatible figure {
+    margin-bottom: 10px;
+}
+
+#gridsystem .pen figure {
+    margin-bottom: 10px;
+}
+
+#gridsystem .pen {
+    margin-bottom: 10px;
+}
+
+#gridsystem .pic figure {
+    margin-bottom: 20px;
+}
+
+
+/*-------------------------------------- ipad offers: Get up to $535 toward a new iPad Pro.  ----------------------------------------*/
+
+#iPadOffersGetIt .DailyCashiPad-class {
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding-top: 0;
+}
+
+#iPadOffersGetIt .Getupto555-class {
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+#iPadOffersGetIt .DailyCashiPad-des h3,
+#iPadOffersGetIt .Getupto555-des h3 {
+    padding-top: 64px;
+    margin-bottom: 21px;
+    font-size: 48px;
+    line-height: 1.00009;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+#iPadOffersGetIt .Getupto555-des {
+    overflow: hidden;
+    height: 100%;
+}
+
+#iPadOffersGetIt .DailyCashiPad-des p,
+#iPadOffersGetIt .Getupto555-des p {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#iPadOffersGetIt .DailyCashiPad-des a,
+#iPadOffersGetIt .Getupto555-des a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #iPadOffersGetIt .DailyCashiPad-class {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #iPadOffersGetIt .Getupto555-class {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #iPadOffersGetIt .DailyCashiPad-des figure {
+        width: 336px !important;
+        height: 181px !important;
+        background-size: 336px 181px !important;
+    }
+}
+
+#iPadOffersGetIt .Getupto555-class figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+    height: 293px;
+    background-size: 256px 293px;
+    background-repeat: no-repeat;
+    background-image: url('img/trade_in__b7usnn4caq6a_large.jpg');
+    position: relative;
+    bottom: -40px;
+}
+
+#iPadOffersGetIt .DailyCashiPad-des figure {
+    width: 552px;
+    height: 296px;
+    background-size: 552px 296px;
+    background-repeat: no-repeat;
+    background-image: url('img/apple_card_monthly_installments__egqy8bxopwcy_large.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+/* ------------------------------------------------tree colum suggestions ---------------------------------------------------*/
+
+#suggInIpadeee #sbox {
+    background-image: url('img/icon_delivery__tz8cove92gy2_large.png');
+    width: 36px;
+    height: 56px;
+    background-size: 36px 56px;
+    background-repeat: no-repeat;
+}
+
+#suggInIpadeee .money-sugg figure {
+    background-image: url('img/icon_engraving__too4s7l7o72u_large.png');
+    width: 40px;
+    height: 56px;
+    background-size: 40px 56px;
+    background-repeat: no-repeat;
+}
+
+#suggInIpadeee .chat-sugg figure {
+    background-image: url('img/icon_education__bcj7hiyvc4w2_large.png');
+    width: 40px;
+    height: 56px;
+    background-size: 40px 56px;
+    background-repeat: no-repeat;
+}
+
+#suggInIpadeee h2 {
+    font-size: 21px !important;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#suggInIpadeee p {
+    font-size: 21px;
+    line-height: 1.381;
+}
+
+#suggInIpadeee a {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+#suggInIpadeee .col-sm {
+    margin-bottom: 30px;
+}
+
+
+/* --------------------------------------------------- iPad essentials Headers ------------------------------------------------  */
+
+#iPadEssentialsHeader {
+    background-color: #F5F5F7;
+}
+
+#iPadEssentialsHeader h2 {
+    padding-top: 120px;
+    padding-bottom: 70px;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+    margin: auto;
+}
+
+
+/* ----------------------------------------------------- iPad essentials contents -------------------------------------------------- */
+
+#iPadEssentialsContents .AccessoriesIpad-class {
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#iPadEssentialsContents .Sayitinawayonlyyoucan-class {
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+#iPadEssentialsContents .iPadEssential-des h3 {
+    padding-top: 64px;
+    margin-bottom: 21px;
+    font-size: 48px;
+    line-height: 1.00009;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+#iPadEssentialsContents .Sayitinawayonlyyoucan-des h3 {
+    margin-bottom: 21px;
+    font-size: 48px;
+    line-height: 1.00009;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    margin-top: -50px;
+}
+
+#iPadEssentialsContents .Sayitinawayonlyyoucan-des {
+    overflow: hidden;
+    height: 100%;
+}
+
+#iPadEssentialsContents .iPadEssential-des p,
+#iPadEssentialsContents .Sayitinawayonlyyoucan-des p {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 600;
+    letter-spacing: .011em;
+}
+
+#iPadEssentialsContents .iPadEssential-des a,
+#iPadEssentialsContents .Sayitinawayonlyyoucan-des a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #iPadEssentialsContents .AccessoriesIpad-class {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #iPadEssentialsContents .Sayitinawayonlyyoucan-class {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #iPadEssentialsContents .Sayitinawayonlyyoucan-des figure {
+        width: 336px !important;
+        height: 181px !important;
+        background-size: 336px 181px !important;
+        width: 331px !important;
+        height: 163px !important;
+    }
+    #iPadEssentialsContents .iPadEssential-des figure {
+        width: 558px !important;
+        height: 258px !important;
+        background-size: 558px 258px !important;
+    }
+    #iPadEssentialsContents .Sayitinawayonlyyoucan-des h3 {
+        margin-top: 0 !important;
+    }
+}
+
+#iPadEssentialsContents .Sayitinawayonlyyoucan-class figure {
+    margin-left: auto;
+    margin-right: auto;
+    background-size: 675px 434px;
+    height: 434px;
+    background-repeat: no-repeat;
+    background-image: url('img/smart_keyboard_folio__fxq8s0qk1wya_large.jpg');
+    background-position: center;
+}
+
+#iPadEssentialsContents .iPadEssential-des figure {
+    /* width: 675px; */
+    height: 373px;
+    /* background-size: 675px 324px; */
+    background-repeat: no-repeat;
+    background-image: url('img/apple_pencil__dp5hre2lf8ya_large.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 0;
+    background-position: bottom;
+}
+
+#iPadEssentialsContents .Sayitinawayonlyyoucan-learn,
+#iPadEssentialsContents .AccessoriesIpad-learn {
+    margin-right: 15px;
+}
+
+
+/*--------------------------------------      Accessories and Say it in a way only you can   ----------------------------------------*/
+
+#Accessories .AccessoriesIpad-class {
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#Accessories .Sayitinawayonlyyoucan-class {
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+#Accessories .AccessoriesIpad-des h3,
+#Accessories .Sayitinawayonlyyoucan-des h3 {
+    padding-top: 64px;
+    margin-bottom: 21px;
+    font-size: 48px;
+    line-height: 1.00009;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+#Accessories .Sayitinawayonlyyoucan-des {
+    overflow: hidden;
+    height: 100%;
+}
+
+#Accessories .AccessoriesIpad-des p,
+#Accessories .Sayitinawayonlyyoucan-des p {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#Accessories .AccessoriesIpad-des a,
+#Accessories .Sayitinawayonlyyoucan-des a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #Accessories .AccessoriesIpad-class {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #Accessories .Sayitinawayonlyyoucan-class {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #Accessories .Sayitinawayonlyyoucan-des figure {
+        width: 336px !important;
+        height: 181px !important;
+        background-size: 336px 181px !important;
+        width: 331px !important;
+        height: 163px !important;
+    }
+    #Accessories .AccessoriesIpad-des figure {
+        width: 558px !important;
+        height: 258px !important;
+        background-size: 558px 258px !important;
+    }
+}
+
+#Accessories .Sayitinawayonlyyoucan-class figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 537px;
+    height: 267px;
+    margin-top: 40px;
+    background-size: 537px 267px;
+    background-repeat: no-repeat;
+    background-image: url('img/ipad_airpods_engraving_update__6yqu02ndeyau_large.jpg');
+}
+
+#Accessories .AccessoriesIpad-des figure {
+    /* width: 675px; */
+    height: 324px;
+    background-size: 675px 324px;
+    background-repeat: no-repeat;
+    background-image: url('img/accessories__d6ltr7n1knyq_large.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    margin-bottom: 0;
+}
+
+
+/* ----------------------------------------    Why Ipad? (are u sirious ????)        ------------------------------------ */
+
+#WhyiPadUsage h2 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    text-align: center;
+    width: 100%;
+}
+
+#WhyiPadUsage .WhyiPadTitle .title {
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 20px;
+}
+
+#WhyiPadUsage .WhyiPadTitle {
+    background-color: #F5F5F7;
+}
+
+#WhyiPadUsage .WhyiPad {
+    margin-bottom: 30px;
+}
+
+#WhyiPadUsage .TheDamnQuestion h3 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+#WhyiPadUsage .TheDamnQuestion a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 500;
+}
+
+#WhyiPadUsage .TheDamnQuestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#WhyiPadUsage .WhyiPadFigure {
+    padding: 0 !important;
+}
+
+#WhyiPadUsage .WhyiPadFigure figure {
+    width: 790px;
+    height: 466px;
+    background-size: 790px 466px;
+    background-repeat: no-repeat;
+    background-image: url('img/why_ipad__f4g05nvvbj6m_large.jpg');
+}
+
+@media only screen and (max-width: 600px) {
+    #WhyiPadUsage .TheDamnQuestion {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    #WhyiPadUsage .TheDamnQuestion h3 {
+        font-size: 32px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.003em;
+    }
+    #WhyiPadUsage .WhyiPadFigure figure {
+        width: 354px !important;
+        height: 287px !important;
+        background-size: 354px 287px !important;
+        background-image: url('img/why_ipad__f4g05nvvbj6m_small.jpg') !important;
+        margin: auto;
+    }
+}
+
+
+/* ----------------------------------------------------   iPadOS    --------------------------------------------------- */
+
+#iPadOSid .iPadOSDes h3 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+#iPadOSid .iPadOSDes a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 500;
+}
+
+#iPadOSid .iPadOSDes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+}
+
+#iPadOSid .iPadOSDes p {
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#iPadOSid .iPadOSFigure {
+    padding: 0 !important;
+}
+
+#iPadOSid .iPadOSFigure figure {
+    width: 693px;
+    height: 665px;
+    background-size: 693px 665px;
+    background-repeat: no-repeat;
+    margin-bottom: 0;
+    margin-left: 55px;
+    background-image: url('img/ipados__c32v3imah9iu_large.jpg');
+}
+
+#iPadOSid .iPadOS {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    #iPadOSid .iPadOSDes {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    #iPadOSid .iPadOSDes h3 {
+        font-size: 32px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.003em;
+    }
+    #iPadOSid .iPadOSFigure figure {
+        width: 736px !important;
+        height: 420px !important;
+        background-size: 736px 420px !important;
+        background-image: url('img/ipados__c32v3imah9iu_small.jpg') !important;
+        margin-left: -30%;
+    }
+}
+
+
+/* ----------------------------------------   iCloud and apple pay two colum            ---------------------------------- */
+
+#iCloudAndApplePay .iCloudIpad-class {
+    background-color: #FFFFFF;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 0;
+    overflow: hidden;
+}
+
+#iCloudAndApplePay .ApplePay-class {
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+#iCloudAndApplePay .iCloudIpad-des h3,
+#iCloudAndApplePay .ApplePay-des h3 {
+    padding-top: 64px;
+    margin-bottom: 21px;
+    font-size: 48px;
+    line-height: 1.00009;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+#iCloudAndApplePay .ApplePay-des {
+    overflow: hidden;
+    height: 100%;
+}
+
+#iCloudAndApplePay .iCloudIpad-des p,
+#iCloudAndApplePay .ApplePay-des p {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#iCloudAndApplePay .iCloudIpad-des a,
+#iCloudAndApplePay .ApplePay-des a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #iCloudAndApplePay .iCloudIpad-class {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #iCloudAndApplePay .ApplePay-class {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #iCloudAndApplePay .ApplePay-des .ApplepayPic {
+        width: 375px !important;
+        height: 238px !important;
+        background-size: 375px 238px !important;
+    }
+    #iCloudAndApplePay .iCloudIpad-des figure {
+        /* width: 558px !important;
+        height: 258px !important;
+        background-size: 558px 258px !important; */
+        margin-top: 45px;
+        margin-bottom: 36px;
+    }
+}
+
+#iCloudAndApplePay .ApplePay-class .ApplepayPic {
+    margin-left: auto;
+    margin-right: auto;
+    width: 492px;
+    height: 312px;
+    background-size: 492px 312px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    background-image: url('img/apple_pay__f3fmrwgjkwyi_large.jpg');
+}
+
+#iCloudAndApplePay .ApplePay-class .logo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 114px;
+    height: 46px;
+    background-size: 114px 46px;
+    background-repeat: no-repeat;
+    background-image: url('img/apple_pay_logo__fkbexz8wteeu_large.png');
+}
+
+#iCloudAndApplePay .iCloudIpad-des figure {
+    /* width: 675px; */
+    width: 594px;
+    height: 280px;
+    background-size: 594px 280px;
+    background-repeat: no-repeat;
+    background-image: url('img/icloud__e8d5j75mfy6i_large.jpg');
+    margin-top: 80px;
+    margin-right: 12px;
+    margin-bottom: 40px;
+}
+
+
+/* -----------------------------------------------  Get more out of your iPad  ------------------------------------------------ */
+
+#VirtualSession h2 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    text-align: center;
+    width: 100%;
+}
+
+#VirtualSession .GetmoreOfiPadTitle .title {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#VirtualSession .GetmoreOfiPadTitle {
+    background-color: #F5F5F7;
+}
+
+#VirtualSession .GetmoreOfiPadRow {
+    margin-bottom: 30px;
+}
+
+#VirtualSession .GetmoreOfiPadDes h3 {
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 600;
+    letter-spacing: .009em;
+}
+
+#VirtualSession .GetmoreOfiPadDes h4 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+}
+
+#VirtualSession .GetmoreOfiPadDes p {
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#VirtualSession .GetmoreOfiPadDes a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 500;
+}
+
+#VirtualSession .GetmoreOfiPadDes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 6%;
+}
+
+#VirtualSession .GetmoreOfiPadFigure {
+    padding: 0 !important;
+}
+
+#VirtualSession .GetmoreOfiPadFigure figure {
+    width: 703px;
+    height: 504px;
+    background-size: 703px 504px;
+    background-repeat: no-repeat;
+    margin-left: 75px;
+    background-image: url('img/taa_virtual_sessions__3x6xsmeks8i2_large.jpg');
+    margin-bottom: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #VirtualSession .GetmoreOfiPadDes {
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    #VirtualSession .GetmoreOfiPadDes h3 {
+        font-size: 32px;
+        line-height: 1.08349;
+        font-weight: 600;
+        letter-spacing: -.003em;
+    }
+    #VirtualSession .GetmoreOfiPadFigure figure {
+        width: 736px !important;
+        height: 214px !important;
+        background-size: 736px 214px !important;
+        background-image: url('img/taa_virtual_sessions__3x6xsmeks8i2_small.jpg') !important;
+        margin: auto;
+        margin-left: -140px;
+    }
+}
+
+
+/* -- ---------------------------------------------  apple one bundle and sth  --------------------------------------------- */
+
+.apple-one-title h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.apple-one-apps {
+    background-image: url('img/bundle__eqmvgz1saumq_large.jpg');
+    width: 542px;
+    height: 329px;
+    background-position: right;
+    background-size: 542px 329px;
+    background-repeat: no-repeat;
+    margin-top: 145px;
+    margin-bottom: 125px;
+    float: right;
+}
+
+.apple-one-pic {
+    width: 317px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-size: 317px 100px;
+    background-repeat: no-repeat;
+    background-image: url('img/apple_one__egmvpoip0s6e_large.jpg');
+    position: relative;
+    left: 50%;
+    margin-left: -158.5px;
+}
+
+.apple-one-des {
+    font-size: 28px;
+    line-height: 1.14286;
+    font-weight: 600;
+    letter-spacing: .007em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1068px) {
+    .apple-one-apps {
+        width: 313px;
+        height: 191px;
+        background-size: 313px 191px;
+        background-repeat: no-repeat;
+        background-image: url('img/bundle__eqmvgz1saumq_large.jpg');
+        position: relative;
+        margin-left: -158.5px;
+    }
+}
+
+.row .apple-one-1 {
+    margin: auto;
+    background-color: white;
+    width: 97.5%;
+    margin-bottom: 30px;
+}
+
+.row .apple-one-1 a {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 1.381;
+}
+
+.row .apple-one-1 .apple-one-try {
+    margin-right: 15px;
+}
+
+
+/* -- ------------------------------------------------ apple tv+ and music     --------------------------------------------- */
+
+#AppleTVPlusMusic .tv-plus {
+    background-color: #000000;
+    margin-right: 30px;
+    padding: 55px;
+    background-image: url('img/apple_tv_plus_tile__eoyrdxp3msuq_large.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    padding-top: 0;
+}
+
+#AppleTVPlusMusic .AppleMusic {
+    background-color: #FFFFFF;
+    padding: 55px;
+    background-image: url('img/apple_music__b9xqezgi696q_large.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #AppleTVPlusMusic .tv-plus {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #AppleTVPlusMusic .AppleMusic {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+#AppleTVPlusMusic .AppleMusic figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 158px;
+    height: 39px;
+    margin-bottom: 21px;
+    background-size: 158px 39px;
+    background-repeat: no-repeat;
+    background-image: url('img/apple_music_logo__e6qzv7u5iq2q_large.png')
+}
+
+#AppleTVPlusMusic .AppleMusic-des h3 {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    margin-bottom: 15px;
+}
+
+#AppleTVPlusMusic .AppleMusic-des a {
+    color: #1D1D1F;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleTVPlusMusic .AppleMusic-des a:hover {
+    color: #1D1D1F;
+    text-decoration: underline;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleTVPlusMusic .tv-plus-des figure {
+    width: 98px;
+    height: 39px;
+    background-size: 98px 39px;
+    background-repeat: no-repeat;
+    background-image: url('img/apple_tv_plus_logo__eknux63x1qqa_large.png');
+    margin-left: auto;
+    margin-bottom: 21px;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+#AppleTVPlusMusic .tv-plus-des h3 {
+    color: white;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleTVPlusMusic .tv-plus-des {
+    padding-bottom: 345px;
+}
+
+#AppleTVPlusMusic .AppleMusic-des {
+    padding-bottom: 345px;
+}
+
+#AppleTVPlusMusic .tv-plus-try {
+    margin-right: 30px;
+}
+
+#AppleTVPlusMusic .tv-plus a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+
+/* -- -- ------------------------------------------------fitness + arcade     ---------------------------------------------  -- */
+
+#fitnessAndArcade {
+    margin: auto;
+    width: 97.5%;
+}
+
+#fitnessAndArcade .col-sm {
+    background-color: white;
+}
+
+#fitnessAndArcade .Fitness {
+    margin-right: 30px;
+}
+
+#fitnessAndArcade .Fitness,
+#fitnessAndArcade .Arcade {
+    padding-top: 55px;
+    padding-bottom: 370px;
+}
+
+#fitnessAndArcade a::after {
+    content: ">";
+}
+
+#fitnessAndArcade .Fitness {
+    background-size: 470px 317px;
+    background-image: url('img/fitness_plus__bvlrjj0yo2oi_large.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-position-y: calc(100% - 32px);
+}
+
+#fitnessAndArcade .Arcade {
+    background-image: url('img/apple_arcade_tile__cwmk40f0x682_large.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#fitnessAndArcade .Fitness figure {
+    width: 222px;
+    height: 42px;
+    background-size: 222px 42px;
+    background-image: url('img/logo_fitness_plus__d297xtn33weq_large.jpg');
+    margin: auto;
+}
+
+#fitnessAndArcade .Arcade figure {
+    width: 179px;
+    height: 38px;
+    background-size: 179px 38px;
+    background-image: url('img/apple_arcade_logo_tile__f51k696nme62_large.png');
+    margin: auto;
+}
+
+#fitnessAndArcade p {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#fitnessAndArcade .Arcade p {
+    color: white;
+}
+
+#fitnessAndArcade .Fitness a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    color: #06c;
+}
+
+#fitnessAndArcade .Fitness a:hover {
+    text-decoration: underline;
+}
+
+#fitnessAndArcade .Arcade a {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    color: white;
+}
+
+#fitnessAndArcade .Arcade a:hover {
+    text-decoration: underline;
+}
+
+#fitnessAndArcade .fitcadeTry {
+    margin-right: 15px;
+}
+
+
+/* ------------------------------------------------  apple news and apple card ---------------------------------------------- */
+
+#AppleNewsAndCard .news-plus {
+    background-color: #FA3455;
+    padding: 55px;
+    margin-right: 30px;
+    background-image: url('img/apple_news_plus_tile_update__chsi932id76u_large.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #AppleNewsAndCard .news-plus {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #AppleNewsAndCard .near-card {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+#AppleNewsAndCard .news-plus figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-size: 175px 40px;
+    background-repeat: no-repeat;
+    background-image: url('img/apple_news_plus_logo__c3au0mnx4dci_large.png')
+}
+
+#AppleNewsAndCard .news-plus-des h3 {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: white;
+}
+
+#AppleNewsAndCard .news-plus-des a {
+    color: white;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleNewsAndCard .news-plus-des a:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleNewsAndCard .news-plus-des {
+    padding-bottom: 345px;
+}
+
+#AppleNewsAndCard .news-plus-try {
+    margin-right: 30px;
+}
+
+#AppleNewsAndCard .near-card {
+    background-color: #CCCCCC;
+    padding: 55px;
+    background-image: url('img/tile_apple_card__cmv7d5nsgvqu_large.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+#AppleNewsAndCard .near-card figure {
+    margin-left: auto;
+    margin-right: auto;
+    width: 128px;
+    height: 38px;
+    margin-bottom: 20px;
+    background-size: 128px 38px;
+    background-repeat: no-repeat;
+    background-image: url('img/logo_apple_card__8lm0kev8paa2_large.png')
+}
+
+#AppleNewsAndCard .near-card-des h3 {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleNewsAndCard .near-card-des a {
+    color: #1D1D1F;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleNewsAndCard .near-card-des a:hover {
+    color: #1D1D1F;
+    text-decoration: underline;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleNewsAndCard .near-card-des {
+    padding-bottom: 345px;
+}
+
+
+/* ---------------------------------------- apple in edu and at Work ----------------------------------------- */
+
+#AppleEDUandWork .AppleEDU {
+    padding: 55px;
+    margin-right: 30px;
+    background-size: cover;
+    background-image: url('img/ipad_for_education__c5dytzu56rqu_large.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #AppleEDUandWork .AppleEDU {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #AppleEDUandWork .AppleAtWork {
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+#AppleEDUandWork .AppleEDU-des h3,
+#AppleEDUandWork .AppleAtWork-des h3 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    color: white;
+    margin-bottom: 15px;
+}
+
+#AppleEDUandWork .AppleEDU-des a,
+#AppleEDUandWork .AppleAtWork-des a {
+    color: white;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    text-decoration: none;
+}
+
+#AppleEDUandWork .AppleEDU-des a:hover,
+#AppleEDUandWork .AppleAtWork-des a:hover {
+    color: white;
+    text-decoration: underline;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+}
+
+#AppleEDUandWork .AppleEDU-des {
+    padding-bottom: 345px;
+}
+
+#AppleEDUandWork .AppleAtWork {
+    background-color: #0B0B0B;
+    padding: 55px;
+    background-image: url('img/ipad_for_business__bt0mseawn2s2_large.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+#AppleEDUandWork .AppleEDU-des p {
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: .011em;
+    color: white;
+}
+
+#AppleEDUandWork .AppleAtWork-des {
+    padding-bottom: 345px;
+}
