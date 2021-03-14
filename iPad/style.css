@@ -1,12 +1,8 @@
-@font-face {
-    font-family: "sahel";
-    src: url("../fonts/ios.ttf") format("truetype");
-    /* font-family: "sahel";
-    src: url("../fonts/SFUIText-Regular.woff") format("woff"); */
-}
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 * {
-    font-family: sahel;
+    /*font-family: sahel;*/
+    font-family:'Roboto', sans-serif;
 }
 
 a {
